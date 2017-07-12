@@ -1,0 +1,19 @@
+.container {max-width: 700px; margin: 0 auto; text-align: center; position: relative;}
+.kp_slider{overflow: hidden; position: relative; top: auto;}
+.kp_slider .slider{ position:relative; height: auto; max-height: 500px; list-style: none; overflow: hidden; float: left; padding: 0px; margin: 0px;}
+.kp_slider ul{padding:0px; margin: 0;}
+.kp_slider li {background-color: white; width: 100%; display: inline-block; list-style:none; position: relative; float: left;}
+.kp_slider li.slide2{width: 50%; float:left;}
+.kp_slider li.slide3{width: 33.33%; float:left;}
+.kp_slider li.slide4{width: 25%; float:left;}
+.kp_slider li.slide5{width: 20%; float:left;}
+.kp_slider li.slide6{width: 16.66%; float:left;}
+.kp_slider li.slide7{width: 14.28%; float:left;}
+.kp_slider img {width: 100%; height: 100%;}
+.kp_slider .arrow{position:absolute; top:50%; background: #676767 url('../img/controls.png') no-repeat; width: 33px; height: 40px; text-indent: -100px; overflow: hidden; box-shadow: none; border: none; cursor:pointer; margin-top: -16px; background-position-y: 5px;}
+.kp_slider .arrow.next {right: 5px; background-position: 68% 5px;}
+.kp_slider .arrow.prev {left: 5px;}
+.kp-pager{width:100%; text-align:center; margin: 10px 0; float:left;}
+.kp-pager .kp-pager-item{display:inline-block;}
+.kp-pager .kp-pager-item a{display:block; border-radius: 50%; background: #000; text-indent: -130px; overflow: hidden; margin: 0 2px; width: 10px; height: 10px;}
+.kp-pager .kp-pager-item a.active{background: #f00;}

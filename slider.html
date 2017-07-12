@@ -1,0 +1,37 @@
+
+<link href="css/slider.css" rel="stylesheet" type="text/css" />
+<section class="demo" style="max-width:700px; margin:0 auto; position:relative;">
+  <div class="container">
+  <ul class="slider">
+    <li>
+      <img src="img/bg-0.jpg"/>
+    </li>
+    <li>
+     <img src="img/bg-1.jpg"/>
+    </li>
+    <li>
+      <img src="img/bg-2.jpg"/>
+    </li>
+    <li>
+      <img src="img/bg-3.jpg"/>
+    </li>
+    <li>
+     <img src="img/bg-1.jpg"/>
+    </li>
+  </ul>
+  </div>
+</section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
+<script src="js/slider.js"></script> 
+
+<script>
+$( ".slider" ).prakash_slider({
+        autoplay: true,
+	autoplaySpeed: 3000,
+	arrow: true,
+	dots: true,
+	slide: 'fade',
+	//display_slide:2
+});
+</script>
