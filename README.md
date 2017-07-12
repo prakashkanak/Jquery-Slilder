@@ -2,11 +2,11 @@
 
 use this code
 
-$( ".slider" ).prakash_slider({ <br>
+$( ".slider" ).prakash_slider({ </br>
         autoplay: true,
-        autoplaySpeed: 3000,
-        arrow: true,
-        dots: true,
-        slide: 'fade',
-        display_slide:1
-});
+        </br>autoplaySpeed: 3000,
+        </br>arrow: true,
+        </br>dots: true,
+        </br>slide: 'fade',
+        </br>display_slide:1
+</br>});
