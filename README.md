@@ -2,7 +2,7 @@
 
 use this code
 
-$( ".slider" ).prakash_slider({
+$( ".slider" ).prakash_slider({ <br>
         autoplay: true,
         autoplaySpeed: 3000,
         arrow: true,
